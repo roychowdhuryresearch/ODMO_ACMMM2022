@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Action-conditioned On-demand Motion Generation</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
@@ -43,7 +43,7 @@
               <p class="text-left"><em>We propose a novel framework, On-Demand MOtion Generation (ODMO), for generating realistic and diverse long-term 3D human motion sequences conditioned only on action types with an additional capability of customization. ODMO shows improvements over SOTA approaches on all traditional motion evaluation metrics when evaluated on three public datasets (HumanAct12, UESTC, and MoCap). Furthermore, we provide both qualitative evaluations and quantitative metrics demonstrating several first-known customization capabilities afforded by our framework, including: (i) ability to discover different modes/styles of motion within each action type in the training set, and then generating samples from these modes on demand; (ii) ability to interpolate between pairs of specified modes (hence, on demand) within an action type to generate diverse motions not seen in the training set; and (iii) ability to customize trajectories and specify destinations of generated motion sequences. These capabilities significantly widen the spectrum of potential applications of such motion generation models. The novel on-demand generative capabilities are enabled by innovations in both the encoder and decoder architectures: (i) Encoder: Utilizing contrastive learning in low-dimensional latent space to create a hierarchical embedding of motion sequences, where not only the codes of different action types form different groups, but within an action type, codes of similar inherent patterns (motion styles) cluster together, making them readily discoverable; (ii) Decoder: Using a hierarchical decoding strategy where the motion trajectory is reconstructed first and then used to reconstruct the whole motion sequence. Such an architecture enables effective trajectory control. </em></p>
               <p class="text-left">&nbsp;</p>
               <p class="text-left">&nbsp;</p>
-              <img src="assets/acmmm_mesh.png" width="800" alt=""/>
+              <img src="assets/acmmm_mesh.png" width="100%" alt=""/>
               <p>Fig 1. : On-Demand MOtion Generation(ODMO) can generate diverse and realistic 3D human motion sequences conditioned
                 on action type 𝑐 with the capability of automated discovery and controllable generation of different subtypes in a given category.</p>
               <p>&nbsp;</p>
@@ -51,7 +51,7 @@
           </div>
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> 
-            <img src="assets/architecture.png" width="1600" alt="" class="rounded mx-auto d-block"/>
+            <img src="assets/architecture.png" width="100%" alt="" class="rounded mx-auto d-block"/>
               <p>&nbsp;</p>
               <p class="text-center">Fig 2. ODMO model architecture.</p>
               <p>&nbsp;</p>
